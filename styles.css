@@ -1,0 +1,140 @@
+/* Basic Reset and Typography */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background: url('/july-2025-introduction-to-css-Tamandani-V/Assets/rwenzori.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #480211;
+  margin-bottom: 0.5em;
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #337ab7;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 14px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Sections and Boxes */
+main section {
+  margin-bottom: 2em;
+  padding: 1em;
+  border: 2px solid #ccc;
+  background-color: #e7f0f9;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Cards on Home Page */
+.highlight-section .card {
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+/* Lists */
+.attractions-list ul,
+nav ul {
+  margin-left: 1em;
+}
+
+/* Media Section */
+.media-section figure {
+  margin: 1em 0;
+  border: 1px solid #aaa;
+  padding: 0.5em;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.media-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Form Styling */
+form {
+  max-width: 400px;
+}
+
+fieldset {
+  border: 2px solid #337ab7;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 6px;
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #1b3a57;
+}
+
+label {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #337ab7;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #235a8e;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  color: #777;
+}
+
+
